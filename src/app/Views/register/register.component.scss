@@ -1,0 +1,86 @@
+.container {
+    margin-left: 10%;
+    position: block;
+    ;
+  }
+  
+  
+  mat-card-title,
+  mat-card-subtitle {
+    margin-left: 10%;
+    color: black;
+  }
+  
+  mat-card-content {
+    justify-content: center;
+    margin-right: 5%;
+  }
+  
+  mat-card-actions {
+    margin-left: 40%;
+  }
+  
+ .btn{
+  margin-top: 2%;
+  margin-bottom: 4%;
+
+ }
+  
+  .mat-form-field {
+    width: 220px;
+  }
+
+//mat-table centrada  y responsive y las columnas iguales al los datos    
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+.btn{
+  margin: 1%;
+}
+table {
+  width: 80%;
+}
+th, td {
+  width: 30%;
+  text-align: center;
+  vertical-align: center;
+}
+.encabesado {
+  padding-right: 5%; 
+  text-align: center;
+
+}
+
+.mat-header-cell {
+  font-size: 12px;
+}
+
+  
+  .centrofrom {
+    display: flex;
+    /* align-items por defecto tiene el valor `stretch` */
+    margin-left: 10%;
+  }
+  
+
+  
+ 
+  
+  input[type=number]::-webkit-outer-spin-button,
+  
+  input[type=number]::-webkit-inner-spin-button {
+  
+    -webkit-appearance: none;
+  
+    margin: 0;
+  
+  }
+  
+  
+  
+  input[type=number] {
+  
+    -moz-appearance: textfield;
+  
+  }
